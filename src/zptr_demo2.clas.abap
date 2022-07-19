@@ -4,6 +4,7 @@ CLASS zptr_demo2 DEFINITION
   CREATE PUBLIC .
 
   PUBLIC SECTION.
+  methods: test_pull.
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
@@ -11,4 +12,6 @@ ENDCLASS.
 
 
 CLASS zptr_demo2 IMPLEMENTATION.
+method test_pull.
+endmethod.
 ENDCLASS.
